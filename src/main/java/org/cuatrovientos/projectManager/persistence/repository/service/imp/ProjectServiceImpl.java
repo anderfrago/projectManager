@@ -6,9 +6,10 @@ import org.cuatrovientos.projectManager.persistence.IProjectRepository;
 import  org.cuatrovientos.projectManager.persistence.model.Project;
 import org.cuatrovientos.projectManager.persistence.repository.service.IProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 
-
+@Repository
 public class ProjectServiceImpl implements IProjectService {
 
     @Autowired
